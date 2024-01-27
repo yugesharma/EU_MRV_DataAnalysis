@@ -113,4 +113,5 @@ from EUMRV.dbo.['annualMonitoring']
 where [Ship type] is not null
 Group by [Ship type]
 
+--Access the view creted
 Select * from ShipTypeConsumption 
